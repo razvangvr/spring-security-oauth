@@ -25,6 +25,7 @@
 		<!-- security -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<!--  configure a Spring Boot app to connect to a separate Keycloak server, and use for authorization.  -->
 			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
 
@@ -70,7 +71,7 @@
 	<properties>
 		<!-- non-dependencies -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>13</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 </project>
